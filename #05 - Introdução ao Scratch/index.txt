@@ -1,0 +1,163 @@
+Anotações – Aula 5
+Introdução ao Scratch
+O que é o Scratch?
+
+Scratch é uma linguagem de programação visual, criada pelo MIT
+
+Utiliza blocos gráficos que se encaixam (não é necessário digitar código)
+
+Ideal para iniciantes, especialmente para aprender lógica de programação
+
+Trabalha com conceitos fundamentais de algoritmos de forma visual
+
+Por que usar o Scratch para aprender algoritmos?
+
+Facilita o entendimento da lógica, sem se preocupar com sintaxe
+
+Evita erros comuns de digitação
+
+Permite visualizar:
+
+Sequência de comandos
+
+Condições
+
+Repetições
+
+Eventos
+
+Ajuda a “pensar como programador”
+
+Conceitos Importantes no Scratch
+Algoritmo
+
+Sequência lógica e ordenada de instruções
+
+No Scratch, o algoritmo é montado com blocos
+
+Elementos da Interface do Scratch
+
+Palco
+
+Área onde o programa é executado
+
+Onde os personagens aparecem
+
+Sprites
+
+Personagens ou objetos do programa
+
+Cada sprite pode ter seus próprios scripts
+
+Blocos
+
+Comandos que formam o algoritmo
+
+Divididos por categorias
+
+Área de Scripts
+
+Local onde os blocos são encaixados
+
+Representa o código do programa
+
+Categorias de Blocos (Principais)
+
+Eventos
+
+Iniciam o programa
+
+Exemplo: quando bandeira verde for clicada
+
+Movimento
+
+Movimentam o sprite
+
+Exemplo: andar, girar, deslizar
+
+Aparência
+
+Controlam falas, fantasias e visibilidade
+
+Exemplo: dizer algo, mudar fantasia
+
+Controle
+
+Estruturas de decisão e repetição
+
+Exemplo:
+
+se
+
+repita
+
+repita até
+
+sempre
+
+Sensores
+
+Detectam interações
+
+Exemplo: tocar em outro sprite, posição do mouse
+
+Operadores
+
+Operações matemáticas e lógicas
+
+Exemplo:
+
++, -, *, /
+
+>, <, =
+
+e, ou, não
+
+Variáveis
+
+Armazenam valores
+
+Funcionam como “caixinhas de memória”
+
+Estruturas Lógicas no Scratch
+Sequência
+
+Blocos executados de cima para baixo
+
+Representa a execução passo a passo do algoritmo
+
+Decisão (Condição)
+
+Uso do bloco SE
+
+Executa algo apenas se a condição for verdadeira
+
+Repetição (Laços)
+
+Executa comandos várias vezes
+
+Exemplos:
+
+repita X vezes
+
+repita até
+
+sempre
+
+Vantagens do Scratch
+
+Interface intuitiva
+
+Excelente para treinar lógica
+
+Muito usado na educação
+
+Base sólida para migrar para linguagens como:
+
+Portugol
+
+JavaScript
+
+Python
+
+Java

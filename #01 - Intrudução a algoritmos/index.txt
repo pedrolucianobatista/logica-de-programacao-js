@@ -1,0 +1,56 @@
+Anotações – Aula 1: Introdução a Algoritmos
+
+Algoritmos são conjuntos de passos finitos, organizados e lógicos que, quando executados, resolvem um determinado problema.
+
+Algoritmo: AtravessarRua (Exemplo 1)
+Algoritmo AtravessarRua
+    Olhar para a direita
+    Olhar para a esquerda
+    Se estiver vindo carro
+        Não atravesse
+    Senão
+        Atravesse
+    Fim-Se
+Fim-Algoritmo
+
+Sequência de passos lógica e finita para resolver o problema de atravessar uma rua com segurança.
+
+Algoritmo: AtravessarRua (Exemplo 2)
+Algoritmo AtravessarRua
+    Olhar para a esquerda
+    Olhar para a direita
+    Se não estiver vindo carro
+        Atravesse
+    Senão
+        Não atravesse
+    Fim-Se
+Fim-Algoritmo
+
+Algoritmo diferente para a resolução do mesmo problema, chegando ao mesmo resultado por outra sequência de passos.
+
+Exemplo de sequência incorreta
+Algoritmo AtravessarRua
+    Atravesse
+    Se estiver vindo carro
+        Olhar para a direita
+    Senão
+        Olhar para a esquerda
+    Fim-Se
+    Não atravesse
+Fim-Algoritmo
+
+Este não é um algoritmo válido, pois a sequência de passos não é lógica e não garante a segurança ao atravessar a rua.
+
+Aplicação prática dos algoritmos
+
+Com algoritmos, é possível desenvolver programas para resolver diversos problemas, como, por exemplo, o cálculo de uma equação do segundo grau.
+
+Para isso, seguimos uma ordem lógica de passos:
+
+Solicitar os valores de a, b e c.
+
+Aplicar a fórmula de Bhaskara.
+
+Exibir o resultado.
+
+Dessa forma, o processo se torna mais simples, pois o programa executa os cálculos automaticamente, sendo necessário apenas informar os valores correspondentes.

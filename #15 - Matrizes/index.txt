@@ -1,0 +1,22 @@
+Anotações da aula sobre Variáveis compostas Parte 2 
+
+Mais Dimensões 
+
+var 
+    m: vetor[1..3, 1..2] de inteiro 
+inicio 
+    m[1,2] <- 4 
+    m[2,2] <- 5
+    m[3,1] <- 8
+
+Variáveis compostas homogêneas multidimensionais -> matrizes 
+var 
+    m: vetor[1..3, 1..2] de inteiro
+    l, c: inteiro
+inicio 
+    para l <- 1 ate 3 faca 
+        para c <- 1 ate 2 faca 1 
+            leia(m[l, c])
+        fimpara
+    fimpara 
+    

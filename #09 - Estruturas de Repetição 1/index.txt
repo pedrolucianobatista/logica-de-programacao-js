@@ -1,0 +1,24 @@
+Anotações – Aula: Estruturas de Repetição (Parte 1)
+Exemplo de estrutura Enquanto
+mão <- 0
+Enquanto (mão <= 5) faca
+    troca
+    mão <- mão + 1
+FimEnquanto
+
+Estrutura de Repetição (Looping)
+
+A estrutura de repetição Enquanto executa um bloco de comandos enquanto a condição for verdadeira.
+
+Estrutura geral:
+Enquanto (expressão) faca
+    bloco
+FimEnquanto
+
+Exemplo do cotidiano
+Enquanto não arrumar o quarto faca
+    castigo
+FimEnquanto
+
+
+Quando a condição deixar de ser verdadeira (ou seja, quando o quarto for arrumado), o loop é encerrado e a pessoa fica liberada.

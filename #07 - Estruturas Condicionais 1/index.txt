@@ -1,0 +1,59 @@
+Anotações – Aula 7
+Estruturas Condicionais I – Curso de Algoritmos
+* O que é uma condição
+
+Uma condição permite que o algoritmo tome decisões com base em uma expressão lógica.
+
+Exemplo em linguagem natural:
+
+Se eu tiver dinheiro, então
+vou fazer uma viagem para a Disney.
+
+* Sintaxe da estrutura Se no VisualG
+Se (expressão) entao
+    Bloco
+FimSe
+
+* Condicional Simples
+
+A condicional simples executa um bloco somente se a condição for verdadeira.
+
+Exemplo:
+
+Se (dinheiro >= 10000) entao
+    Escreva("Partiu Disney")
+FimSe
+
+
+Interpretação:
+
+Se eu tiver dinheiro, então vou fazer uma viagem para a Disney.
+
+* Condicional Composta
+
+A condicional composta executa um bloco quando a condição é verdadeira
+e outro quando a condição é falsa.
+
+Exemplo em linguagem natural:
+
+Se eu tiver dinheiro, então
+vou fazer uma viagem para a Disney,
+senão
+vou ficar em casa.
+
+Sintaxe:
+
+Se (expressão) entao
+    Bloco A
+senao
+    Bloco B
+FimSe
+
+
+Exemplo prático:
+
+Se (dinheiro >= 10000) entao
+    Escreva("Partiu Disney")
+senao
+    Escreva("#chateado1")
+FimSe

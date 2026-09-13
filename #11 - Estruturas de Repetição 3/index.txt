@@ -1,0 +1,28 @@
+Anotações – Estruturas de Repetição (Parte 3)
+Estrutura Para
+
+A estrutura Para é utilizada quando se sabe quantas vezes o bloco de comandos será repetido.
+
+Sintaxe geral:
+Para variável <- início até fim [passo salto] faça
+    Bloco
+FimPara
+
+
+variável: contador da repetição
+
+início: valor inicial do contador
+
+fim: valor final do contador
+
+passo (opcional): valor do incremento ou decremento
+
+Se não informado, o passo padrão é 1
+
+Exemplo:
+Para C <- 1 até 10 passo 1 faça
+    EscrevaL(C)
+FimPara
+
+
+Esse código exibirá os números de 1 até 10, um em cada linha.

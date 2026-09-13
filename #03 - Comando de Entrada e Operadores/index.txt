@@ -1,0 +1,79 @@
+Anotações da Aula 3 – Comando de Entrada e Operadores
+Curso de Algoritmos – Curso em Vídeo
+
+Utilizando atribuições:
+
+Algoritmo "MeuNome"
+var
+nome: caractere
+inicio
+nome <- "Gustavo"
+escreva("Muito prazer ", nome)
+// Saída esperada: Muito prazer Gustavo
+fimalgoritmo
+
+Comandos de entrada:
+Os comandos de entrada permitem que o usuário informe dados ao programa.
+
+Exemplo simples:
+escreva("Digite seu nome: ")
+leia(nome)
+
+Utilizando comandos de entrada para gerar interação com o usuário:
+
+Algoritmo "MeuNome"
+var
+nome: caractere
+inicio
+escreva("Digite seu nome: ")
+leia(nome)
+escreva("Muito prazer ", nome)
+fimalgoritmo
+
+Prática: Solicitar dois números para o usuário e mostrar a soma entre eles.
+
+Algoritmo "Valores"
+var
+n1, n2, s: inteiro
+inicio
+escreva("Digite um número: ")
+leia(n1)
+escreva("Digite outro número: ")
+leia(n2)
+s <- n1 + n2
+escreva("A soma é ", s)
+fimalgoritmo
+
+Operadores aritméticos (considerando a <- 5 e b <- 2):
+
+* Adição            a + b   = 7
+
+- Subtração         a - b   = 3
+
+* Multiplicação     a * b   = 10
+  /   Divisão            a / b   = 2.5
+  \   Divisão inteira    a \ b   = 2
+  ^   Exponenciação     a ^ b   = 25
+  %   Módulo            a % b   = 1
+
+Ordem de precedência dos operadores:
+1 - Parênteses ()
+2 - Exponenciação ^
+3 - Multiplicação e divisão (* e /)
+4 - Adição e subtração (+ e -)
+
+Exemplos:
+3 + 2 / 2 = 4
+(3 + 2) / 2 = 2.5
+
+Funções aritméticas:
+
+Abs   - Valor absoluto        Ex: Abs(-10)        Resultado: 10
+Exp   - Exponenciação         Ex: Exp(3, 2)       Resultado: 9
+Int   - Valor inteiro         Ex: Int(3.9)        Resultado: 3
+RaizQ - Raiz quadrada         Ex: RaizQ(25)       Resultado: 5
+Pi    - Retorna o valor de Pi Ex: Pi              Resultado: 3.14...
+Sen   - Seno (radiano)        Ex: Sen(0.523)      Resultado: 0.5
+Cos   - Cosseno (radiano)     Ex: Cos(0.523)      Resultado: 0.86
+Tan   - Tangente (radiano)    Ex: Tan(0.523)      Resultado: 0.57
+GrauRad - Graus para radiano  Ex: GrauRad(30)     Resultado: 0.52

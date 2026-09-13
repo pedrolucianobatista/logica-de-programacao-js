@@ -1,0 +1,40 @@
+Anotações – Funções
+Conceito
+
+Funções são rotinas que retornam um valor ao final de sua execução.
+Diferentemente dos procedimentos, uma função sempre possui tipo de retorno.
+
+Sintaxe de uma Função
+Funcao Soma(a, b: Inteiro): Inteiro
+Var
+    s: Inteiro
+Inicio
+    s <- a + b
+    Retorne s
+FimFuncao
+
+Uso da Função no Algoritmo Principal
+Algoritmo "ExemploFuncao"
+Var
+    n1, n2, res: Inteiro
+Inicio
+    n1 <- 5
+    n2 <- 4
+    res <- Soma(n1, n2)
+    EscrevaL("A soma é ", res)
+FimAlgoritmo
+
+Funções do Visualg (Valores do Tipo Caractere)
+
+Considere:
+
+Site <- "CursoEmVideo"
+
+Função	Resultado	Descrição
+Compr(Site)	12	Retorna o tamanho da string
+Copia(Site, 6, 2)	Em	Copia 2 caracteres a partir da posição 6
+Maiusc(Site)	CURSOEMVIDEO	Converte para letras maiúsculas
+Minusc(Site)	cursoemvideo	Converte para letras minúsculas
+Pos("Video", Site)	8	Retorna a posição inicial da palavra
+Asc("C")	67	Retorna o código ASCII do caractere
+Carac(67)	C	Retorna o caractere do código ASCII

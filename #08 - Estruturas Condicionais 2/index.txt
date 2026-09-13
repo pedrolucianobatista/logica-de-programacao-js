@@ -1,0 +1,56 @@
+Anotações – Aula: Estruturas Condicionais (Parte 2)
+Exemplo de condição aninhada (situação do dia a dia)
+
+Se eu tiver muito dinheiro, então
+vou fazer uma viagem para a Disney
+
+Senão, se eu tiver uma graninha, então
+vou visitar minha cidade natal
+
+Senão
+vou ficar em casa
+
+Condição Aninhada
+
+Uma condição aninhada ocorre quando uma estrutura Se...Senão está dentro de outra.
+
+Estrutura geral:
+Se (situação 1) entao
+    Bloco A
+senao
+    Se (situação 2) entao
+        Bloco B
+    senao
+        Bloco C
+    FimSe
+FimSe
+
+Observações:
+
+A segunda condição só é avaliada se a primeira for falsa.
+
+Esse tipo de estrutura é usado quando existem mais de duas possibilidades.
+
+Estrutura Escolha–Caso
+
+Utilizada quando há várias decisões possíveis baseadas no valor de uma única variável.
+
+Estrutura geral:
+Escolha (variável)
+    Caso valor1
+        Bloco A
+    Caso valor2
+        Bloco B
+    Caso valor3
+        Bloco C
+    OutroCaso
+        Bloco D
+FimEscolha
+
+Observações:
+
+Equivale ao switch/case em outras linguagens.
+
+O OutroCaso é opcional, mas recomendado para tratar valores não previstos.
+
+Torna o algoritmo mais organizado e legível quando há muitos casos.

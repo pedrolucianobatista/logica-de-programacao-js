@@ -1,0 +1,119 @@
+Anotações – Procedimentos
+Rotinas (Parte 1)
+O que são Rotinas
+
+Rotinas são blocos de código reutilizáveis que evitam repetição e facilitam a manutenção do algoritmo.
+
+Exemplo sem Rotina (código repetido)
+Verifique a escotilha
+Botão azul posição 1
+Olhe pelo visor
+Gire a manivela
+Botão azul posição 2
+Gire a manivela
+Aperte o botão vermelho
+
+Coloque a carne
+
+Verifique a escotilha
+Botão azul posição 1
+Olhe pelo visor
+Gire a manivela
+Botão azul posição 2
+Gire a manivela
+Aperte o botão vermelho
+
+Forma ideal usando Rotinas
+RotinaPreparo()
+Coloque a carne
+RotinaPreparo()
+
+Definição do Procedimento
+Procedimento RotinaPreparo()
+Inicio
+    Verifique a escotilha
+    Botão azul posição 1
+    Olhe pelo visor
+    Gire a manivela
+    Botão azul posição 2
+    Gire a manivela
+    Aperte o botão vermelho
+FimProcedimento
+
+Algoritmo principal
+Algoritmo "PreparoCarne"
+Inicio
+    RotinaPreparo()
+    Coloque a carne
+    RotinaPreparo()
+FimAlgoritmo
+
+Passagem de Parâmetros
+Tipo 1: Passagem por Valor
+
+O procedimento recebe apenas uma cópia do valor.
+Alterações não afetam a variável original.
+
+Procedimento Soma(A, B: Inteiro)
+Inicio
+    EscrevaL("Recebi o valor ", A)
+    EscrevaL("Recebi o valor ", B)
+    EscrevaL("A soma vale ", A + B)
+FimProcedimento
+
+Escopo de Variáveis
+
+Escopo é o local onde uma variável existe e pode ser utilizada.
+
+Algoritmo "TesteEscopo"
+Var
+    n1, n2: Inteiro
+
+Procedimento Rotina(a, b: Inteiro)
+Var
+    x, y: Inteiro
+Inicio
+    x <- a
+    y <- b
+    Escreva(n1, n2, a, b, x, y)
+FimProcedimento
+
+Inicio
+    n1 <- 5
+    n2 <- 3
+    Rotina(n1, n2)
+    Escreva(n1, n2)
+FimAlgoritmo
+
+
+Observação importante:
+As variáveis a, b, x e y não existem fora do procedimento, por isso não podem ser usadas no Inicio do algoritmo principal.
+
+Passagem de Parâmetros
+Tipo 2: Passagem por Referência
+
+Nesse tipo, o procedimento altera diretamente a variável original.
+
+Procedimento Soma(var A, B: Inteiro)
+Inicio
+    A <- A + 1
+    B <- B + 2
+    EscrevaL("A soma vale ", A + B)
+FimProcedimento
+
+Algoritmo "SomaPorReferencia"
+Var
+    x, y: Inteiro
+Inicio
+    x <- 4
+    y <- 8
+    Soma(x, y)
+    EscrevaL(x, y)
+FimAlgoritmo
+
+
+Resultado final:
+
+x passa a valer 5
+
+y passa a valer 10

@@ -1,0 +1,92 @@
+Anotações da Aula 2 – Primeiro Algoritmo
+Curso de Algoritmos – Curso em Vídeo
+
+Algoritmos Computacionais:
+Algoritmos computacionais são passos a serem seguidos por um módulo processador e seus respectivos usuários que, quando executados na ordem correta, conseguem realizar determinada tarefa.
+
+Módulo processador:
+Tudo que possui um software e pode ser programado.
+
+Usuários:
+Pessoas que vão utilizar determinado programa.
+
+Realizar tarefa:
+Resolver de fato um determinado problema.
+
+Fluxo de desenvolvimento:
+Lógica de Programação -> Linguagem de Programação -> Sistema Completo
+
+Lógica de Programação:
+A lógica de programação pode ser representada por:
+
+* Fluxograma
+* Diagrama de Nassi-Shneiderman
+* Portugol
+
+Variáveis:
+Variáveis são espaços reservados na memória do computador utilizados para armazenar valores.
+
+Declaração de variáveis (Portugol):
+var
+identificador: tipo
+
+Exemplo:
+var
+bola: brinquedo
+
+Regras para a nomeação dos identificadores:
+1 - Deve começar com uma letra
+2 - Os próximos caracteres podem ser letras ou números
+3 - Não pode utilizar símbolos, exceto o sublinhado (_)
+4 - Não pode conter espaços em branco
+5 - Não pode conter letras com acentuação
+6 - Não pode ser uma palavra reservada
+
+Exemplos válidos:
+Nota1
+inicio_Algoritmo
+
+Exemplos inválidos:
+Média
+SalárioBruto
+9idade
+Algoritmo (palavra reservada)
+
+Tipos primitivos:
+
+Inteiro:
+Números inteiros, positivos ou negativos, sem casas decimais.
+Exemplos: 1, 3, -5, 198, 0
+
+Real:
+Números com casas decimais.
+Exemplos: 0.5, 5.0, 9.8, -77.3, 3.1415
+
+Caractere:
+Conjunto de caracteres representados entre aspas.
+Exemplos: "Gustavo", "Algoritmo", "123"
+
+Lógico:
+Valores booleanos.
+Exemplos: verdadeiro, falso
+
+Atribuição:
+Atribuição é o ato de armazenar um valor em uma variável.
+
+Sintaxe de atribuição (Portugol):
+variavel <- valor
+
+Exemplo:
+var
+msg: caractere
+
+msg <- "Olá, Mundo!"
+
+Exemplo de algoritmo completo:
+algoritmo "PrimeiroAlgoritmo"
+var
+msg: caractere
+inicio
+msg <- "Olá, Mundo!"
+escreva(msg)
+fimalgoritmo

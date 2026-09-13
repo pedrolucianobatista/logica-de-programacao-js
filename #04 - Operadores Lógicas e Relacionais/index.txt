@@ -1,0 +1,67 @@
+Anotações – Aula 4
+Operadores Lógicos e Relacionais
+Operadores Relacionais
+
+> — Maior que
+
+< — Menor que
+
+>= — Maior ou igual a
+
+<= — Menor ou igual a
+
+= — Igual a
+
+<> — Diferente de
+
+Resultado: sempre retornam Verdadeiro (V) ou Falso (F).
+
+Operadores Lógicos
+Operador E
+p	q	p E q
+V	V	V
+V	F	F
+F	V	F
+F	F	F
+
+Só é verdadeiro quando ambos são verdadeiros.
+
+Operador OU
+p	q	p OU q
+V	V	V
+V	F	V
+F	V	V
+F	F	F
+
+É verdadeiro quando pelo menos um for verdadeiro.
+
+Operador NÃO
+p	NÃO p
+V	F
+F	V
+
+Inverte o valor lógico.
+
+Ordem de Precedência dos Operadores
+
+Aritméticos
+
+()
+
+^
+
+* /
+
++ -
+
+Relacionais
+
+>, <, >=, <=, =, <>
+
+Lógicos
+
+NÃO
+
+E
+
+OU

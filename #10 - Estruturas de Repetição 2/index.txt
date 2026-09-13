@@ -1,0 +1,32 @@
+Anotações – Estruturas de Repetição (Parte 2)
+Estrutura Repita...Até
+
+A estrutura Repita...Até possui lógica inversa ao Enquanto, mas funcionalidades semelhantes.
+
+O bloco de comandos é executado pelo menos uma vez.
+
+A condição é testada no final do laço.
+
+A repetição continua até a condição ser verdadeira.
+
+Estrutura geral:
+Repita
+    bloco
+Ate (expressão)
+
+Comparação com Enquanto
+Usando Enquanto:
+Enquanto não arrumar o quarto faca
+    castigo
+FimEnquanto
+
+
+Quando a condição deixar de ser verdadeira, a repetição é encerrada e a pessoa fica liberada.
+
+Usando Repita...Até:
+Repita
+    castigo
+Ate arrumar o quarto
+
+
+A repetição ocorre até que o quarto seja arrumado. Após isso, a pessoa fica liberada.
